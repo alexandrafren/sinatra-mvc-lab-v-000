@@ -10,4 +10,5 @@ class PigLatinizer
       word.partition(/[AaEeIiOoUu]/).rotate.join("") + "ay"
     end
   end
+
 end
